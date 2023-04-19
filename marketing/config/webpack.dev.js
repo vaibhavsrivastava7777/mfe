@@ -16,7 +16,6 @@ const devConfig = {
         uniqueName: 'marketing',
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './public/index.html' }),
         new ModuleFedrationPlugin({
             name: 'marketing',
             filename: 'remoteEntry.js',
